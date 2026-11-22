@@ -13,6 +13,7 @@ pipeline {
                 sh 'echo "=== Container Created Automatically ==="'
                 sh 'cat /etc/os-release'
                 sh 'sleep 5'
+                sh 'echo "Triggered automatically via GitHub Webhook!"'
             }
         }
     }
